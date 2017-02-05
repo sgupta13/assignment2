@@ -17,27 +17,18 @@ h3{ letter-spacing: 2px;
 	font-family: Century Gothic;
 }
 ul.a {
-    list-style-type: circle;
+    list-style-image: url("bullet.jpg");
 }
 
 ul.b {
-    list-style-type: square;
+    list-style-image: url("bullet1.jpg");
 }
-ul.c {
-    list-style-type: none;
-    margin: 2px;
-    padding: 2px;
-    overflow: hidden;
-}
-
-li.d {
-    float: left;
-}
-
-li.d a {
-	display: block;
-    padding: 8px;
+.floating-box {
+	display: inline-block;
     background-color: #C6C611;
+    border-right: 25px solid #003366;
+    font-size: 20px;
+    padding: 5px;
 }
 body {
     background-color: #FFCC00;
@@ -49,12 +40,13 @@ body {
 a:hover {
     color: red;
 }
+a:link{
+    text-decoration: none;
+}
 
 .gs{
-	color:red;
 	font-weight:bold;
 }
-	
 table {
 	color: #FFFFFF;
 	margin-top: 20px;
@@ -74,4 +66,5 @@ caption {
 	background-color: #F0F0F0;
 	color: #A4A400;
 	font-family: Century Gothic;
+	font-weight:bold;
 }
